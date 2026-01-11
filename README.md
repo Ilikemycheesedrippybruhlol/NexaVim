@@ -23,8 +23,8 @@ Clone the Repository Pull the latest source code directly from GitHub:
 git clone https://github.com/Ilikemycheesedrippybruhlol/NexaVim
 Compile the Source Enter the directory and use the GNU C++ Compiler to create your executable:
 
-cd NexaVim
-g++ -o nexavim nexavim.cpp
+cd NexaVim &&
+g++ -std=c++17 nexavim.cpp -o nexavim
 Launch NexaVim Start the editor immediately:
 
 ./nexavim
